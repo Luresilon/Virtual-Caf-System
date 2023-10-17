@@ -9,6 +9,7 @@ public class Customer {
                 "\nPlease enter your name: ");
 
         try {
+
             Scanner in = new Scanner(System.in);
             String customerName = in.nextLine();
             System.out.println("Welcome " + customerName + "!");
